@@ -1,7 +1,5 @@
-.section1 {
+.container {
 font-family: Roboto;
-color: white;
-background-color: #1F2937;
 border: 5px solid red; /* For debugging only */
 display: flex;
 flex-direction: column;
@@ -14,4 +12,9 @@ flex-direction: column;
 
 .head-content {
     border: 5px solid yellow; /* For debugging only */
+}
+
+.nav-list, .head-content {
+    color: white;
+    background-color: #1F2937;
 }
