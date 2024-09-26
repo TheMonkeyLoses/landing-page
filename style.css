@@ -5,7 +5,9 @@
 
 .nav-list {
     border: 5px solid blue; /* For debugging only */
-    list-style: none;   
+    list-style: none;  
+    justify-content: center;
+    
 }
 
 .head-content {
@@ -17,4 +19,8 @@
     background-color: #1F2937;
     display: flex;
     margin: 0;
+}
+
+.head-logo {
+    flex: 1;
 }
