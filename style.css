@@ -14,3 +14,7 @@ flex-direction: column;
 .head-content {
     border: 5px solid yellow; /* For debugging only */
 }
+
+ul {
+    list-style-type: none;
+}
