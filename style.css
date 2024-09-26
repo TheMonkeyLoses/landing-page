@@ -2,5 +2,15 @@
 font-family: Roboto;
 color: white;
 background-color: #1F2937;
-border: 5px solid white;
+border: 5px solid red; /* For debugging only */
+display: flex;
+flex-direction: column;
+}
+
+.nav-list {
+    border: 5px solid blue; /* For debugging only */
+}
+
+.head-content {
+    border: 5px solid yellow; /* For debugging only */
 }
