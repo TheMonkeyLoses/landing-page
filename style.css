@@ -1,13 +1,11 @@
 .container {
-font-family: Roboto;
-border: 5px solid red; /* For debugging only */
-display: flex;
-flex-direction: column;
+    font-family: Roboto;
+    border: 5px solid red; /* For debugging only */
 }
 
 .nav-list {
     border: 5px solid blue; /* For debugging only */
-    list-style-type: none;
+    list-style: none;   
 }
 
 .head-content {
@@ -17,4 +15,5 @@ flex-direction: column;
 .nav-list, .head-content {
     color: white;
     background-color: #1F2937;
+    display: flex;
 }
